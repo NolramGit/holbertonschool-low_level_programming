@@ -8,7 +8,7 @@
  * Return: Return 0
  */
 
-void rint_alphabet(void)
+void print_alphabet(void)
 {
 	int ltr = 97;
 
