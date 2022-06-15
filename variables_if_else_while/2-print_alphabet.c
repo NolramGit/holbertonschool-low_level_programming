@@ -12,10 +12,19 @@ int main(void)
 {
 	int ascii = 97;
 
-	while (ascii <= 122)
+	while (ascii <= 123)
 	{
-		putchar(ascii);
-		ascii++;
+		if(ascii < 122)
+		{
+			putchar(ascii);
+			ascii++;
+		}
+		else
+		{
+			putchar(10);
+			ascii++;
+		}
+
 	}
 	return (0);
 }
