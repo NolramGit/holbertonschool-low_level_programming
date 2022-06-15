@@ -8,14 +8,13 @@
  * Return: Return 0
  */
 
-int main(void)
+print_alphabet(void)
 {
 	int ltr = 97;
 
 	for (; ltr <= 122; ltr++)
-	{
 		_putchar(ltr);
-	}
+
+
 	_putchar('\n');
-	return (0);
 }
