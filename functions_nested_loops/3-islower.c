@@ -1,9 +1,9 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * _islower: Function that checks if letter is lowercase.
- *
- * Description: 'Prints _putchar whit function'
+ * _islower - Function that checks if letter is lowercase.
+ * @c : letra char.
+ * Description: 'Return if letter is lowercase or not'
  *
  * Return: Return 0
  */
