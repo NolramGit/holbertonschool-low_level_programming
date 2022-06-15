@@ -10,7 +10,7 @@
  */
 int main(void)
 {
-	int ascii = 112;
+	int ascii = 122;
 
 	for (; ascii >= 97; ascii--)
 	{
