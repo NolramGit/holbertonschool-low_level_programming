@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet - prints the alphabet
  *
  * Description: 'Prints _putchar whit function'
  *
