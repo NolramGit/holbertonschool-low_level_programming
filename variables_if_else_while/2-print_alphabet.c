@@ -17,5 +17,5 @@ int main(void)
 		putchar(ascii);
 		ascii++;
 	}
-	return (0)
+	return (0);
 }
