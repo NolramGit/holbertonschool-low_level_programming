@@ -10,11 +10,13 @@
  */
 int main(void)
 {
-	for (int ltr = 97; ltr <= 122; ltr++)
+	int ltr;
+
+	for (ltr = 97; ltr <= 122; ltr++)
 	{
 		putchar(ltr);
 	}
-	for (int ltr = 65; ltr <= 90; ltr++)
+	for (ltr = 65; ltr <= 90; ltr++)
 	{
 		putchar(ltr);
 	}
