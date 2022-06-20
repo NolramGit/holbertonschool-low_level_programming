@@ -10,7 +10,13 @@
 
 int _isupper(int c)
 {
-	char letter = c;
-	return (isupper(letter));
+	if (isupper(c))
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
 
