@@ -8,7 +8,7 @@
  * Return: Always 0.
  */
 
-int _isupper(int c)
+int _isupper(char c)
 {
 	return (isupper(c));
 }
