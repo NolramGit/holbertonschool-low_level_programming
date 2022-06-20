@@ -3,7 +3,7 @@
 
 /**
  * _isdigit - Entry function.
- * Description : Function that checks if variable @c is a digit. 
+ * Description : Function that checks if variable @c is a digit.
  * @c: variable, argument
  * Return: Always 0.
  */
