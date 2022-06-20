@@ -10,7 +10,6 @@
 
 int _isupper(int c)
 {
-	char c;
 	return (isupper(c));
 }
 
