@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * _isupper - Entry function.
+ * print_numbers - Entry function.
  * Description : Function that prints the numbers 0 to 9.
- */ 
+ */
 
 void print_numbers(void)
 {
