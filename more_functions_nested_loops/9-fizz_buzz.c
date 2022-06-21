@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
- * fizz_buzz - Entry function.
+ * main - Entry function.
  * Description : Function that fizz, buzz or FizzBuzz depends of the multiplo.
  */
 
-void fizz_buzz(void)
+int main(void)
 {
 	int number;
 
@@ -37,5 +37,6 @@ void fizz_buzz(void)
 			printf(" ");
 		}
 	}
+	return (0);
 }
 
