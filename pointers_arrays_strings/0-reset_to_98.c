@@ -3,7 +3,11 @@
 
 /**
  * reset_to_98 - Entry function
+ *
  * Description: change value of a pointer
+ *
+ * @n: pointer
+ *
  * Return: Always 0.
  */
 
