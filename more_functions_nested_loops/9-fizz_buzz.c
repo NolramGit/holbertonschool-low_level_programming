@@ -4,6 +4,7 @@
 /**
  * main - Entry function.
  * Description : Function that fizz, buzz or FizzBuzz depends of the multiplo.
+ * Return: Return 0;
  */
 
 int main(void)
@@ -37,6 +38,7 @@ int main(void)
 			printf(" ");
 		}
 	}
+	printf("\n");
 	return (0);
 }
 
