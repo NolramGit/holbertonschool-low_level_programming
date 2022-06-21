@@ -10,7 +10,7 @@
  * Return: Always 0.
  */
 
-int _puts(char *s)
+void _puts(char *s)
 {
 	puts(s);
 }
