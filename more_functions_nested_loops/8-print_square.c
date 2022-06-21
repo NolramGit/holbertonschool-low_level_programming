@@ -12,12 +12,12 @@ void print_square(int size)
 	int sq_width;
 	int sq_height;
 
-	if (n > 0)
+	if (size > 0)
 	{
 
-		for (sq_height = 1; sq_height <= n; sq_height++)
+		for (sq_height = 1; sq_height <= size; sq_height++)
 		{
-			for (sq_width = 1; sq_width <= n; sq_width++)
+			for (sq_width = 1; sq_width <= size; sq_width++)
 				_putchar(35);
 
 			_putchar(10);
