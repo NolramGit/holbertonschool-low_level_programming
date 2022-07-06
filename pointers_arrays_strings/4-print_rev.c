@@ -1,16 +1,16 @@
 #include "main.h"
 #include <string.h>
 /**
- * _puts - Entry function
+ * print_rev - Entry function
  *
- * Description: Function that returns length of two a string.
+ * Description: Function that returns string in reverse.
  *
- * @s: pointer.
+ * @s: String pointer.
  *
  * Return: Always 0.
  */
 
-void _puts(char *s)
+void print_rev(char *s)
 {
 	int i;
 
