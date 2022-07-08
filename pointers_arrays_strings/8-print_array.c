@@ -1,10 +1,12 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_array - Entry function.
  *
  * Description: Function that prints an array.
  *
- * @str: string char.
+ * @a: array.
+ * @n: number of elements.
  *
  * Return: 0.
  */
@@ -17,7 +19,7 @@ void print_array(int *a, int n)
 	{
 		printf("%d", a[i]);
 
-		if (i < n-1)
+		if (i < n - 1)
 		{
 			printf(", ");
 		}
