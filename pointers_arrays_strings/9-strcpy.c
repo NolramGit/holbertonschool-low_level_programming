@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _strcpy - Entry function.
+ * *_strcpy - Entry function.
  *
  * Description: Function that copies a string.
  *
@@ -11,11 +11,11 @@
  * Return: 0.
  */
 
-void *_strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int i = 0;
 
-	while(*(src + i) != 0)
+	while (*(src + i) != 0)
 	{
 		*(dest + i) = *(src + i);
 		i++;
