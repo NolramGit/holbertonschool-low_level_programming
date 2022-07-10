@@ -2,34 +2,34 @@
 #include <stdio.h>
 
 /**
- * reset_to_98 - Entry function
+ *  *_strcat - Entry function
  *
- * Description: change value of a pointer
+ * Description: Function that concatenates two strings.
  *
- * @n: pointer
+ * @dest: pointer string
+ * @src: pointer string
  *
  * Return: Always 0.
  */
 void *_strcat(char *dest, char *src)
 {
-	int l1, l2, len;
+	int str1 = 0, str2 = 0, length;
 
-	l1 = l2 = 0;
-	while (dest[l1] != '\0')
+	while (dest[str1] != '\0')
 	{
-		l1++;
+		str1++;
 	}
 	while (src[l2] != '\0')
 	{
 		l2++;
 	}
-	len = l2;
-	l2 = 0;
-	while (l2 < len)
+	length = l2;
+	str2 = 0;
+	while (str2 < length)
 	{
-		dest[l1] = src[l2];
-		l1++;
-		l2++;
+		dest[str1] = src[str2];
+		str1++;
+		str2++;
 	}
 	return (dest);
 }
