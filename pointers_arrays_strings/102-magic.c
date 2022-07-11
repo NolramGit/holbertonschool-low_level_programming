@@ -1,14 +1,5 @@
 #include <stdio.h>
 
-/**
- * main - Entry function
- *
- * Description: None
- *
- * Return: Always 0.
- */
-
-
 int main(void)
 {
   int n;
