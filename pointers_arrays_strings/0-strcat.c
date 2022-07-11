@@ -19,11 +19,11 @@ char *_strcat(char *dest, char *src)
 	{
 		str1++;
 	}
-	while (src[l2] != '\0')
+	while (src[str2] != '\0')
 	{
-		l2++;
+		str2++;
 	}
-	length = l2;
+	length = str2;
 	str2 = 0;
 	while (str2 < length)
 	{
