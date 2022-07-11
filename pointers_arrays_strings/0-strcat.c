@@ -11,7 +11,7 @@
  *
  * Return: Always 0.
  */
-void *_strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 	int str1 = 0, str2 = 0, length;
 
