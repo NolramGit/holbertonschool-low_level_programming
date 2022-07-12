@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _memcpy - Entry function.
+ * _strchr - Entry function.
  * Description: Funtion that locates a character in a string.
  *
  * @s: char pointer
