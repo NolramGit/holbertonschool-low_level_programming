@@ -2,9 +2,9 @@
 
 /**
  * print_diagsums - Entry function.
- * Description: Funtion that prints the sum of the two diagonals of a square matrix of integers
+ * Description: Funtion that prints the sum of a square matrix of integers
  *
- * @a: integer.
+ * @a: integer
  * @size: size integer
  *
  * Return: 0
