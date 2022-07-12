@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _memset - Entry function. 
+ * _memset - Entry function.
  * Description: Funtion that fills memory whit a constant byte.
  *
  * @s: char pointer
