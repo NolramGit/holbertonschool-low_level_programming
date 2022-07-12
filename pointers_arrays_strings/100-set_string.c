@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_diagsums - Entry function.
+ * set_string - Entry function.
  * Description: Funtion that sets the value of a pointer to a char
  *
  * @s: char pointer
