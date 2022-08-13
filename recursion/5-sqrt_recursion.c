@@ -12,7 +12,7 @@ int sqr_aux_recursion(int n, int i)
 	if (i * i == n)
 		return (i);
 	if (i < n)
-		return (aux(n, i + 1));
+		return (sqr_aux_recursion(n, i + 1));
 	return (-1);
 }
 
