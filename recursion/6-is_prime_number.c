@@ -12,7 +12,7 @@ int aux_prime(int n, int i)
 	if (n % i == 0 && i != n)
 		return (0);
 	if (i < n)
-		return (aux(n, i + 1));
+		return (aux_prime(n, i + 1));
 	return (1);
 }
 
